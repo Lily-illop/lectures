@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [[ "$PWD" == "$HOME" ]] 
+then 
+echo $HOME
+exit 0
+else
+echo "U are not in HOME dir"
+exit 1
+fi
+

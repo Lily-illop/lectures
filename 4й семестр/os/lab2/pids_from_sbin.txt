@@ -1,0 +1,15 @@
+1530 : /usr/sbin/kerneloops
+1532 : /usr/sbin/kerneloops
+1549 : /usr/sbin/gdm3
+763 : /usr/sbin/acpid
+765645 : /usr/sbin/cupsd
+765702 : /usr/sbin/cups-browsed
+767 : /usr/sbin/avahi-daemon
+770 : /usr/sbin/cron
+774 : /usr/sbin/NetworkManager
+779 : /usr/sbin/irqbalance
+790 : /usr/sbin/rsyslogd
+807 : /usr/sbin/wpa_supplicant
+826 : /usr/sbin/avahi-daemon
+842 : /usr/sbin/ModemManager
+866523 : /usr/sbin/openvpn

@@ -1,0 +1,23 @@
+#!/bin/bash
+
+log_file="full.log"
+anaconda_log="/var/log/anaconda/X.log"
+inst_log="/var/log/installer/X.0.log"
+
+input_file=""
+
+if [[ -f "$anaconda_log" ]]
+then input_file=$anaconda_log
+elif [[ -f "inst_log" ]]
+then input_file=$inst_log
+else
+echo "None of files were found"
+exit 1
+fi
+
+grep "WW" "$input_file" | sed 's/.*WW/Warning:/' > "$log_file"
+grep "II" "$input_file" | sed 's/.*II/Information:/' >> "$log_file"
+
+cat "$log_file"
+
+exit 0

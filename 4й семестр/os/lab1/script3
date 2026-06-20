@@ -1,0 +1,34 @@
+#! /bin/bash
+
+while true; do
+
+echo "Choose your oprion:"
+echo "1 - open nano"
+echo "2 - open vim"
+echo "3 - open link"
+echo "4 - exit"
+
+read -p "enter number " oprion
+
+case $oprion in
+1)
+nano
+;;
+2)
+# vi
+echo "Think twice"
+;;
+3)
+links
+;;
+4)
+echo "Exit"
+exit 0
+;;
+*)
+echo "Incorrect"
+;;
+esac
+echo "///////////////////////////////////////"
+done
+

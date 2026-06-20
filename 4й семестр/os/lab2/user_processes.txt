@@ -1,0 +1,125 @@
+124
+2298:systemd
+2299:(sd-pam)
+2305:pipewire
+2306:pipewire-media-
+2307:pulseaudio
+2316:gnome-keyring-d
+2331:dbus-daemon
+2333:xdg-document-po
+2337:xdg-permission-
+2375:gdm-wayland-ses
+2378:gnome-session-b
+2425:gnome-session-c
+2435:gvfsd
+2441:gvfsd-fuse
+2444:gnome-session-b
+2464:at-spi-bus-laun
+2471:dbus-daemon
+2475:gnome-shell
+2512:gnome-shell-cal
+2518:evolution-sourc
+2525:goa-daemon
+2526:gvfs-udisks2-vo
+2528:evolution-calen
+2537:goa-identity-se
+2546:gvfs-afc-volume
+2553:dconf-service
+2554:evolution-addre
+2561:gvfs-mtp-volume
+2567:gvfs-goa-volume
+2574:gvfs-gphoto2-vo
+2585:gvfsd-trash
+2595:gjs
+2598:at-spi2-registr
+2616:sh
+2617:gsd-a11y-settin
+2619:ibus-daemon
+2620:gsd-color
+2621:gsd-datetime
+2624:gsd-housekeepin
+2627:gsd-keyboard
+2630:gsd-media-keys
+2631:gsd-power
+2635:gsd-print-notif
+2638:gsd-rfkill
+2641:gsd-screensaver
+2642:gsd-sharing
+2654:gsd-smartcard
+2662:gsd-sound
+2665:gsd-wacom
+2673:gsd-disk-utilit
+2687:evolution-alarm
+2704:ibus-dconf
+2712:ibus-extension-
+2719:ibus-portal
+2755:snap-store
+2756:telegram-deskto
+2778:gsd-printer
+2814:ibus-engine-sim
+2829:xdg-desktop-por
+2860:xdg-desktop-por
+2982:tracker-miner-f
+2990:gjs
+3013:xdg-desktop-por
+3110:gvfsd-metadata
+3144:snapd-desktop-i
+3220:snapd-desktop-i
+3323:Xwayland
+3337:gsd-xsettings
+3364:ibus-x11
+4852:snap
+5269:obexd
+5570:psensor
+5707:update-notifier
+102019:gnome-terminal-
+102037:bash
+103034:oosplash
+103052:soffice.bin
+300653:speech-dispatch
+300664:sd_espeak-ng-mb <defunct>
+300668:sd_espeak-ng
+300734:sd_dummy
+667764:firefox
+667917:Socket Process
+667939:WebExtensions
+667944:RDD Process
+667970:Privileged Cont
+668224:Utility Process
+668276:Isolated Web Co
+676980:Isolated Web Co
+677124:Isolated Web Co
+679251:Isolated Web Co
+682247:Isolated Web Co
+693768:Isolated Web Co
+717976:Isolated Web Co
+718146:Isolated Web Co
+751723:Isolated Web Co
+751882:Isolated Servic
+770797:Isolated Web Co
+771727:Isolated Web Co
+771729:Isolated Web Co
+771897:Isolated Web Co
+775550:Isolated Web Co
+778641:Isolated Web Co
+794199:Isolated Web Co
+794241:Isolated Web Co
+794396:Isolated Web Co
+796662:Isolated Web Co
+800010:Isolated Web Co
+800546:Isolated Web Co
+811132:Isolated Web Co
+822352:gvfsd-network
+822373:gvfsd-dnssd
+822632:evince
+822639:evinced
+822737:evince
+824087:bash
+830642:Isolated Web Co
+847275:bash
+863592:Isolated Web Co
+865013:gjs
+875638:Web Content
+876098:Web Content
+876435:Web Content
+876607:tracker-extract

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+out_file="info.log"
+in_file="/var/log/anaconda/syslog"
+in_file2="/var/log/installer/syslog"
+
+if [[ -f "$in_file" ]]
+then
+echo "1"
+awk '$2 == "INFO" {print}' "$in_file" > $out_file
+elif [[ -f "$in_file2" ]]
+then
+echo "2"
+awk '/INFO/' "$in_file2" > $out_file
+else
+echo "None of files were found"
+exit 1
+fi
+
+exit 0
+

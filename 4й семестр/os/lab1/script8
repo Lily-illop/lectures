@@ -1,0 +1,7 @@
+#!/bin/bash
+
+dir_name="/etc/passwd"
+
+awk -F':' '{print $1, $3}' $dir_name | sort -n -t ' ' -k 2
+exit 0
+

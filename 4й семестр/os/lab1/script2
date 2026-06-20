@@ -1,0 +1,15 @@
+#! /bin/bash
+
+result=""
+input_line=""
+
+while [[ $input_line != "q" ]]
+do
+result+=$input_line
+read input_line
+
+# echo "\\$input_line\\"
+
+done
+
+echo $result
